@@ -24,9 +24,9 @@ The packaged workflow is a portable exported KNIME workflow. KNIME may require t
 
 ## Dataset Columns
 
-`student_id`, `attendance_rate`, `average_grade`, `late_submissions`, `study_hours_per_week`, and `risk_status`.
+`student_id`, `attendance`, `quiz_score`, `assignment_score`, `exam_score`, and `risk_status`.
 
-`risk_status` is the classification target (`At Risk` or `Low Risk`).
+`risk_status` is the classification target (`At Risk` or `Not At Risk`). The included file has 30 student records: 14 `At Risk` and 16 `Not At Risk`.
 
 ## Author
 
