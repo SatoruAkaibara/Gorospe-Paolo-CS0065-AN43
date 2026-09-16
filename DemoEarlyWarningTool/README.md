@@ -16,7 +16,7 @@ The included workflow uses a Decision Tree classifier with a train/test partitio
 
 1. Download `DemoEarlyWarningTool.knwf` from this folder.
 2. In KNIME Analytics Platform, select **File > Import KNIME Workflow** and choose the downloaded `.knwf` file.
-3. Open the workflow and configure the input reader. If the imported workflow shows a file path, point the CSV Reader to `student_performance_knime.csv` in this folder.
+3. Open the workflow and configure the input. If the imported package shows its example Table Reader, replace it with or configure a CSV Reader and select `student_performance_knime.csv` from this folder.
 4. Confirm the target/risk column and execute the nodes from left to right.
 5. Open the Scorer node to review the confusion matrix and classification statistics.
 
