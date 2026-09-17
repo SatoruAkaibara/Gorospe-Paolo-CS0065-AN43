@@ -59,7 +59,11 @@ def main():
     models = {
         "Logistic Regression": Pipeline([
             ("scaler", StandardScaler()),
-            ("model", LogisticRegression(max_iter=2000, random_state=42)),
+            ("model", LogisticRegression(
+                solver="sag",
+                max_iter=2000,
+                random_state=42,
+            )),
         ]),
         "Decision Tree": DecisionTreeClassifier(
             random_state=42,
