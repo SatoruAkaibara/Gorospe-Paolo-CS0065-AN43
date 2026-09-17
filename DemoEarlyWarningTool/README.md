@@ -7,7 +7,6 @@ This folder contains the KNIME submission for CS0065 Intelligent Systems, Asynch
 - `DemoEarlyWarningTool.knwf` — exported KNIME workflow package containing Logistic Regression, Decision Tree, and Random Forest learner/predictor branches with Scorer nodes.
 - `student_performance_knime.csv` — included CSV dataset for the student early-warning use case.
 - `Gorospe_Paolo_KNIME_GitHub_Evidence.pdf` — evidence PDF showing the project preparation, Git commands, and GitHub verification.
-- `student_performance_model.py` — optional Python comparison script using the same four features and target column.
 
 ## Algorithms
 
