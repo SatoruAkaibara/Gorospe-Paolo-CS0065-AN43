@@ -51,7 +51,6 @@ def main():
             ("model", LogisticRegression(max_iter=2000, random_state=42)),
         ]),
         "Decision Tree": DecisionTreeClassifier(
-            max_depth=4,
             random_state=42,
         ),
         "Random Forest": RandomForestClassifier(
