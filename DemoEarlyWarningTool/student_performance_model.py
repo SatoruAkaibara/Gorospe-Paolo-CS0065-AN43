@@ -20,6 +20,8 @@ from sklearn.tree import DecisionTreeClassifier
 
 BASE_DIR = Path(__file__).resolve().parent
 CSV_FILE = BASE_DIR / "student_performance_knime.csv"
+KNIME_TRAIN_FILE = BASE_DIR / "knime_train.csv"
+KNIME_TEST_FILE = BASE_DIR / "knime_test.csv"
 PIPELINE_FILE = BASE_DIR / "student_performance_pipeline.joblib"
 
 FEATURES = [
@@ -34,16 +36,25 @@ TARGET = "risk_status"
 def main():
     data = pd.read_csv(CSV_FILE)
 
-    X = data[FEATURES]
-    y = data[TARGET]
-
-    X_train, X_test, y_train, y_test = train_test_split(
-        X,
-        y,
-        test_size=0.30,
-        random_state=42,
-        stratify=y,
-    )
+    if KNIME_TRAIN_FILE.exists() and KNIME_TEST_FILE.exists():
+        train_data = pd.read_csv(KNIME_TRAIN_FILE)
+        test_data = pd.read_csv(KNIME_TEST_FILE)
+        X_train = train_data[FEATURES]
+        y_train = train_data[TARGET]
+        X_test = test_data[FEATURES]
+        y_test = test_data[TARGET]
+        print("Using the exact training and testing partitions exported from KNIME.")
+    else:
+        X = data[FEATURES]
+        y = data[TARGET]
+        X_train, X_test, y_train, y_test = train_test_split(
+            X,
+            y,
+            test_size=0.30,
+            random_state=42,
+            stratify=y,
+        )
+        print("Using Python's reproducible 70/30 stratified split.")
 
     models = {
         "Logistic Regression": Pipeline([
