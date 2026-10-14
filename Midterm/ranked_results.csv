@@ -1,0 +1,61 @@
+application_id,grade_average,annual_household_income,activity_count,document_status,enrolled,resident,validation_status,eligibility_status,reason,grade_points,need_points,activity_points,weighted_score,rule_score,weighted_rank,rule_rank
+G7-059,99.3,22932,5,verified,yes,yes,valid,eligible,eligible,43.739999999999995,24.712,15.0,83.452,85.0,1,2
+G7-039,94.7,27660,6,verified,yes,yes,valid,eligible,eligible,35.46000000000001,21.560000000000002,15.0,72.02,85.0,2,3
+G7-008,94.5,18555,3,verified,yes,yes,valid,eligible,eligible,35.1,27.63,9.0,71.73,95.0,3,1
+G7-045,88.8,25181,6,verified,yes,yes,valid,eligible,eligible,24.839999999999996,23.212666666666667,15.0,63.0527,70.0,4,5
+G7-048,85.8,20638,6,verified,yes,yes,valid,eligible,eligible,19.439999999999994,26.241333333333333,15.0,60.6813,70.0,5,7
+G7-023,88.0,8998,0,verified,yes,yes,valid,eligible,eligible,23.400000000000002,34.001333333333335,0.0,57.4013,70.0,6,6
+G7-016,86.2,14769,2,verified,yes,yes,valid,eligible,eligible,20.160000000000004,30.154,6.0,56.314,80.0,7,4
+G7-009,93.7,47315,3,verified,yes,yes,valid,eligible,eligible,33.660000000000004,8.456666666666667,9.0,51.1167,65.0,8,9
+G7-055,79.0,12243,4,verified,yes,yes,valid,eligible,eligible,7.2,31.838,12.0,51.038,65.0,9,12
+G7-027,83.5,14500,0,verified,yes,yes,valid,eligible,eligible,15.3,30.333333333333332,0.0,45.6333,70.0,10,8
+G7-012,77.6,24769,5,verified,yes,yes,valid,eligible,eligible,4.67999999999999,23.487333333333332,15.0,43.1673,55.0,11,19
+G7-029,88.5,45312,3,verified,yes,yes,valid,eligible,eligible,24.3,9.792,9.0,43.092,50.0,12,21
+G7-046,92.0,46663,1,verified,yes,yes,valid,eligible,eligible,30.6,8.891333333333334,3.0,42.4913,55.0,13,14
+G7-052,87.5,52910,5,verified,yes,yes,valid,eligible,eligible,22.5,4.726666666666667,15.0,42.2267,55.0,14,16
+G7-021,75.7,8531,2,verified,yes,yes,valid,eligible,eligible,1.2600000000000051,34.312666666666665,6.0,41.5727,65.0,15,13
+G7-049,84.7,34402,2,verified,yes,yes,valid,eligible,eligible,17.460000000000004,17.06533333333333,6.0,40.5253,65.0,16,10
+G7-035,90.5,50481,1,verified,yes,yes,valid,eligible,eligible,27.9,6.346,3.0,37.246,55.0,17,15
+G7-013,76.9,11658,0,verified,yes,yes,valid,eligible,eligible,3.4200000000000106,32.228,0.0,35.648,55.0,18,20
+G7-010,83.5,38822,2,verified,yes,yes,valid,eligible,eligible,15.3,14.118666666666666,6.0,35.4187,65.0,19,11
+G7-054,81.0,47879,5,verified,yes,yes,valid,eligible,eligible,10.799999999999999,8.080666666666668,15.0,33.8807,55.0,20,18
+G7-014,82.8,36175,0,verified,yes,yes,valid,eligible,eligible,14.039999999999996,15.883333333333333,0.0,29.9233,55.0,21,17
+G7-041,77.3,47399,3,verified,yes,yes,valid,eligible,eligible,4.139999999999995,8.400666666666666,9.0,21.5407,35.0,22,22
+G7-001,75.0,60000,0,verified,yes,yes,valid,eligible,eligible,0.0,0.0,0.0,0.0,25.0,23,23
+G7-002,75.0,60000,0,verified,yes,yes,valid,eligible,eligible,0.0,0.0,0.0,0.0,25.0,24,24
+G7-017,99.9,36427,5,missing,yes,yes,valid,not eligible / review,documents not verified,,,,,,,
+G7-020,99.7,23050,0,pending,yes,yes,valid,not eligible / review,documents not verified,,,,,,,
+G7-028,97.4,54355,3,verified,no,yes,valid,not eligible / review,not enrolled,,,,,,,
+G7-042,96.3,21472,5,pending,yes,yes,valid,not eligible / review,documents not verified,,,,,,,
+G7-006,96.1,60001,3,verified,yes,yes,valid,not eligible / review,income above 60000,,,,,,,
+G7-050,96.0,69884,0,missing,yes,yes,valid,not eligible / review,income above 60000; documents not verified,,,,,,,
+G7-044,95.3,72954,6,verified,yes,yes,valid,not eligible / review,income above 60000,,,,,,,
+G7-057,94.3,76833,5,verified,yes,no,valid,not eligible / review,income above 60000; not resident,,,,,,,
+G7-018,93.6,75748,0,verified,yes,yes,valid,not eligible / review,income above 60000,,,,,,,
+G7-019,88.3,74603,6,verified,no,yes,valid,not eligible / review,income above 60000; not enrolled,,,,,,,
+G7-060,87.3,24764,5,verified,no,yes,valid,not eligible / review,not enrolled,,,,,,,
+G7-026,85.0,69186,2,pending,yes,yes,valid,not eligible / review,income above 60000; documents not verified,,,,,,,
+G7-030,84.9,17213,6,missing,yes,yes,valid,not eligible / review,documents not verified,,,,,,,
+G7-043,84.8,60516,5,pending,yes,yes,valid,not eligible / review,income above 60000; documents not verified,,,,,,,
+G7-015,84.6,65831,5,missing,yes,yes,valid,not eligible / review,income above 60000; documents not verified,,,,,,,
+G7-031,84.4,67193,4,verified,yes,yes,valid,not eligible / review,income above 60000,,,,,,,
+G7-058,80.8,36767,2,pending,yes,yes,valid,not eligible / review,documents not verified,,,,,,,
+G7-037,80.5,75241,6,verified,yes,yes,valid,not eligible / review,income above 60000,,,,,,,
+G7-051,80.2,75866,4,verified,yes,yes,valid,not eligible / review,income above 60000,,,,,,,
+G7-011,78.4,33060,3,missing,yes,yes,valid,not eligible / review,documents not verified,,,,,,,
+G7-032,76.7,67156,2,pending,yes,yes,valid,not eligible / review,income above 60000; documents not verified,,,,,,,
+G7-004,76.0,52660,6,pending,yes,yes,valid,not eligible / review,documents not verified,,,,,,,
+G7-036,75.2,71275,4,missing,yes,yes,valid,not eligible / review,income above 60000; documents not verified,,,,,,,
+G7-034,75.0,74147,4,verified,yes,yes,valid,not eligible / review,income above 60000,,,,,,,
+G7-005,74.9,46301,3,verified,no,yes,valid,not eligible / review,grade below 75; not enrolled,,,,,,,
+G7-022,74.0,55024,6,verified,yes,yes,valid,not eligible / review,grade below 75,,,,,,,
+G7-040,73.8,18182,3,verified,yes,yes,valid,not eligible / review,grade below 75,,,,,,,
+G7-056,73.7,34340,0,verified,yes,no,valid,not eligible / review,grade below 75; not resident,,,,,,,
+G7-047,71.8,11441,2,verified,yes,yes,valid,not eligible / review,grade below 75,,,,,,,
+G7-053,70.8,48842,5,verified,yes,yes,valid,not eligible / review,grade below 75,,,,,,,
+G7-024,70.4,29029,4,pending,yes,yes,valid,not eligible / review,grade below 75; documents not verified,,,,,,,
+G7-025,70.1,42794,5,verified,yes,yes,valid,not eligible / review,grade below 75,,,,,,,
+G7-033,69.4,41789,0,verified,yes,yes,valid,not eligible / review,grade below 75,,,,,,,
+G7-007,69.2,74974,5,verified,yes,yes,valid,not eligible / review,grade below 75; income above 60000,,,,,,,
+G7-038,69.1,47880,2,verified,yes,yes,valid,not eligible / review,grade below 75,,,,,,,
+G7-003,,39200,6,pending,yes,yes,needs correction,not eligible / review,invalid or missing grade,,,,,,,
