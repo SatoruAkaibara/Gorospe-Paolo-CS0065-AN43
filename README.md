@@ -3,9 +3,34 @@ Technical Assessment submissions for CS0065 - AN43
 
 ## Submission folders
 
-- [Technical Assessments](Technical%20Assessments/) — TA1 random walk simulation, TA2 rule-based agent reports, and TA3 case-based intelligent tutoring system.
+- [Technical Assessments](Technical%20Assessments/) — TA1 random walk simulation, TA2 rule-based agent reports, TA3 case-based intelligent tutoring system, and TA4 knowledge representation with rule-based and case-based reasoning.
 - [DemoEarlyWarningTool](DemoEarlyWarningTool/) — Asynchronous Activity 1 KNIME workflow, dataset, README, and evidence PDF.
 - [Midterm](Midterm/) — Group 7 Scholarship Application Review: KNIME workflow, Python ranking, Streamlit web interface, dataset, results, and documentation.
+
+## TA4: Knowledge Representation, Rule-Based Reasoning, and Case-Based Reasoning
+
+By Paolo C. Gorospe. A classroom comfort and weather assistant uses the same knowledge base to compare rule-based reasoning (RBR) and case-based reasoning (CBR).
+
+- [Assessment report with code, reflection, and terminal screenshots (PDF)](Technical%20Assessments/TA4_Gorospe.pdf)
+- [Python program](Technical%20Assessments/TA4_Gorospe.py)
+
+The knowledge base contains five facts in three categories: environment, room, and equipment. Four IF–THEN rules generate cooling and rain advice. CBR compares five Boolean features against three past cases, then retrieves, reuses, revises, and retains a solution. The demonstration selects Case 1 at 80% similarity, adds umbrella advice, and retains Case 4, which matches the current problem at 100%.
+
+### Run TA4
+
+Requires Python 3; no additional packages are needed. From the repository root:
+
+```sh
+python "Technical Assessments/TA4_Gorospe.py"
+```
+
+Enter a replacement solution when prompted, or press Enter to keep the proposed solution. To reproduce the report's screenshots with the automatic demonstration revision:
+
+```sh
+python "Technical Assessments/TA4_Gorospe.py" --demo
+```
+
+New cases are retained in memory only for the current run. Restarting restores the three initial cases.
 
 ## TA3: Case-Based Intelligent Tutoring System
 
